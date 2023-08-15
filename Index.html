@@ -9,37 +9,69 @@
 <body>
     <header>
         <h1>Welcome to Katik</h1>
-        <div>Selamat datang di Katik</div>
-        <div>Website untuk menghitung luas dan keliling segitiga</div>
+        <p>Selamat datang di Katik</p>
+        <p>Website untuk menghitung luas dan keliling segitiga</p>
+        <hr>
     </header>
     <main>
         <div>
-            <h1>Luas Segitiga</h1>
+            <h2>Luas & Keliling Segitiga</h2>
             <form>
                 <img src="https://ilmuplus.com/wp-content/uploads/2023/03/segitiga.jpg" alt="Gambar segitiga">
             </form>
-            <div>Rumus Luas Segitiga:</div>
-            <div>L = 1/2 x a x t</div>
-            <div>Keterangan:</div>
-            <div>L = Luas</div>
-            <div>a = Panjang alas</div>
-            <div>t = Tinggi</div>
+            <p>Rumus Segitiga:</p>
+            <p><b>L = 1/2 x a x t</b></p>
+            <p><b>K = a + b + c</b></p>
+            <p>Keterangan:</p>
+            <p>L = Luas</p>
+            <p>K = Keliling</p>
+            <p>a = Panjang alas</p>
+            <p>b = Sisi B</p>
+            <p>c = Sisi C</p>
+            <p>t = Tinggi</p>
+            <hr>
         </div>
-        <div>
-            <h1>Hitung Luas Segitiga</h1>
-            <form>
-            <label class="panjang">Masukkan Panjang Alas:</label>
-            <br>
-            <input type="number" id="panjang" name="panjang">
-            <br>
-            <label class="tinggi">Masukkan Tinggi:</label>
-            <br>
-            <input type="number" id="tinggi" name="tinggi">
-            <br>
-            <input type="submit" value="Hitung">
-            <input type="reset">
-            </form>
+        <div class="container">
+            <div class="switch">
+                <div class="luas" onclick="tab2();">Luas</div>
+                <div class="keliling" >Keliling</div>
+            </div>
+
+            <div class="outer">
+                <form id="form">
+                    <div id="page">
+                        <label>Luas Segitiga</label>
+                        <p>Panjang Alas</p>
+                        <div class="element">
+                            <input type="number">
+                        </div>
+                        <p>Tinggi</p>
+                        <div class="element">
+                            <input type="number">
+                        </div>
+                        <button id="btn">Hasil</button>
+                    </div>
+
+                    <div id="page">
+                        <label>Keliling Segitiga</label>
+                        <p>Panjang Alas</p>
+                        <div class="element">
+                            <input type="number">
+                        </div>
+                        <p>Sisi B</p>
+                        <div class="element">
+                            <input type="number">
+                        </div>
+                        <p>Sisi C</p>
+                        <div class="element">
+                            <input type="number">
+                        </div>
+                        <button id="btn">Hasil</button>
+                    </div>
+                </form>
+            </div>
         </div>
     </main>
+<script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>
