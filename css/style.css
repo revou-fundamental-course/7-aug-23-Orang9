@@ -3,6 +3,8 @@
     margin: 0px;
     padding: 0px;
     outline: none;
+    background-color: black;
+    color: white;
 }
 
 header {
@@ -24,6 +26,7 @@ h2 {
     margin: 20px;
     text-align: center;
     background-color: aqua;
+    color: black;
     border-radius: 20px;
     padding: 6px;
 
@@ -43,85 +46,28 @@ p {
     padding: 5px 0px;
 }
 
-.container {
-    position: relative;
-    padding: 20px 0px;
-    width: 100%;
-
-
-}
-
-.switch {
-    position: absolute;
-    right: 10px;
-    display: flex;
-    border-bottom: 1px solid;
-}
-
-.switch::after {
-    content: '';
-    height: 6px;
-    width: 60px;
-    background: red;
-    border-radius: 60px 60px 0 0;
-    position: absolute;
-    bottom: 0;
-    left: 8px;
+h3 {
+    font-weight: 500;
+    font-size: 40px;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
 }
 
 .luas {
-    padding: 5px 12px;
-    background: blueviolet;
-    margin-bottom: 10px;
-    border-radius: 50px;
-    text-align: right;
-    margin-left: 4px;
-    letter-spacing: 1px;
-    cursor: pointer;
-    transition: 0.3s ease;
+    font-weight: 400px;
+    font-size: 20px;
+    margin: 5px 5px;
+    padding: 5px 5px;
+    line-height: 40px;
 }
 
 .keliling {
-    padding: 5px 12px;
-    background: blueviolet;
-    margin-bottom: 10px;
-    border-radius: 50px;
-    text-align: right;
-    margin-left: 4px;
-    letter-spacing: 1px;
-    cursor: pointer;
-    transition: 0.3s ease;
-}
-
-.container .outer {
-    width: 100%;
-    margin-top: 40px;
-    text-align: center;
-    position: relative;
-}
-
-.outer #form {
-    width: 200%;
-    position: relative;
-    display: flex;
-    margin: auto;
-    transition: 0.2s ease-in-out;
-}
-
-#page {
-    margin: auto;
-    width: 100%;
-}
-
-label {
-    display: block;
-    margin-bottom: 5px;
-    padding: 10px 15px;
-    text-align: center;
-    letter-spacing: 2px;
+    font-weight: 400px;
     font-size: 20px;
-    font-weight: bold;
-    text-transform: uppercase;
+    margin: 5px 5px;
+    padding: 5px 5px;
+    line-height: 40px;
 }
 
 .element {
@@ -130,23 +76,29 @@ label {
 
 .element input {
     width: 100%;
+    border-radius: 10px;
+    border: 1px solid;
     height: 25px;
-    border-radius: 6px;
-    margin-bottom: 10px;
-
 }
 
-#btn {
-    padding: 5px 25px;
-    background: green;
-    border-radius: 50px;
-    font-size: 25px;
-    text-transform: uppercase;
-    border: none;
-    margin-top: 5px;
-    cursor: pointer;
+.btn {
+    border-radius: 20px;
+    padding: 10px;
+    margin: 5px 10px;
 }
 
-#btn:active {
-    transform: scale(1.01);
+#output1 {
+    font-weight: 400px;
+    font-size: 20px;
+    margin: 5px 5px;
+    padding: 5px 5px;
+    line-height: 40px;
+}
+
+#output2 {
+    font-weight: 400px;
+    font-size: 20px;
+    margin: 5px 5px;
+    padding: 5px 5px;
+    line-height: 40px;
 }

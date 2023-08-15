@@ -31,45 +31,44 @@
             <p>t = Tinggi</p>
             <hr>
         </div>
-        <div class="container">
-            <div class="switch">
-                <div class="luas" onclick="tab2();">Luas</div>
-                <div class="keliling" >Keliling</div>
-            </div>
+        <div>
+            <h3>Hitung Luas</h3>
+            <form class="luas">
+                <label for="">Panjang Alas</label>
+                <div class="element">
+                    <input type="number" id="alas1">
+                </div>
+                <label for="">Tinggi</label>
+                <div class="element">
+                    <input type="number" id="tinggi">
+                </div>
+            </form>
+            <button class="btn" id="hitung1">Hitung</button>
+            <br>
+            <div id="output1"></div>
+            <hr>
+        </div>
 
-            <div class="outer">
-                <form id="form">
-                    <div id="page">
-                        <label>Luas Segitiga</label>
-                        <p>Panjang Alas</p>
-                        <div class="element">
-                            <input type="number">
-                        </div>
-                        <p>Tinggi</p>
-                        <div class="element">
-                            <input type="number">
-                        </div>
-                        <button id="btn">Hasil</button>
-                    </div>
-
-                    <div id="page">
-                        <label>Keliling Segitiga</label>
-                        <p>Panjang Alas</p>
-                        <div class="element">
-                            <input type="number">
-                        </div>
-                        <p>Sisi B</p>
-                        <div class="element">
-                            <input type="number">
-                        </div>
-                        <p>Sisi C</p>
-                        <div class="element">
-                            <input type="number">
-                        </div>
-                        <button id="btn">Hasil</button>
-                    </div>
-                </form>
-            </div>
+        <div>
+            <h3>Hitung Keliling</h3>
+            <form class="keliling">
+                <label for="">Panjang Alas</label>
+                <div class="element">
+                    <input type="number" id="alas2">
+                </div>
+                <label for="">Sisi B</label>
+                <div class="element">
+                    <input type="number" id="sisiB">
+                </div>
+                <label for="">Sisi C</label>
+                <div class="element">
+                    <input type="number" id="sisiC">
+                </div>
+            </form>
+            <button class="btn" id="hitung2">Hitung</button>
+            <br>
+            <div id="output2"></div>
+            <hr>
         </div>
     </main>
 <script type="text/javascript" src="js/script.js"></script>
